@@ -1,2 +1,15 @@
-# youtube-large-livestream
-Fills available space with the livestream layout.
+# Youtube Large Livestream
+
+A Chrome extension that fills available space when viewing a Youtube livestream.
+
+This is mainly useful for displays larger than 1080p, smaller displays/windows will see minimal differences.
+
+## Features
+
+- Modifies default view video to be fill available space.
+- Modifies default view chat to fill available vertical height.
+- Modifies emoji picker to be taller.
+
+# Alternatives
+
+If you need an alternative for another browser, or prefer a more filled-in layout, I suggest: https://greasyfork.org/en/scripts/394945-youtube-live-filled-up-view

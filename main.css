@@ -1,0 +1,7 @@
+ytd-watch-flexy[flexy][is-two-columns_]:not([theater]) ytd-live-chat-frame#chat {
+  min-height: calc(100vh - 24px - 80px) !important;
+}
+
+ytd-watch-flexy[flexy][is-two-columns_]:not([theater]) #columns.ytd-watch-flexy {
+  max-width: none !important;
+}

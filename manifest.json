@@ -1,0 +1,25 @@
+{
+  "name": "Youtube Large Livestream",
+  "description": "Fill available space when viewing a Youtube livestream",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/watch*"],
+      "css": ["main.css"],
+      "js": ["content.js"]
+    },
+    {
+      "matches": ["https://www.youtube.com/live_chat*"],
+      "css": ["chat.css"],
+      "all_frames": true
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["/page.js"],
+      "matches": ["<all_urls>"],
+      "use_dynamic_url": true
+    }
+  ]
+}

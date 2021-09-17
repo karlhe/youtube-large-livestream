@@ -1,0 +1,4 @@
+/* Default height is just a tad too short */
+yt-emoji-picker-renderer.yt-live-chat-message-input-renderer {
+  min-height: 294px !important;
+}
