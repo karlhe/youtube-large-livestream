@@ -23,6 +23,12 @@
       attributes: true,
       attributeFilter: ['style'],
     });
+
+    document.addEventListener('visibilitychange', () => {
+      if (document.visibilityState === 'visible') {
+        setVideoSize(player);
+      }
+    }, false);
   }
 
   if (player && player.getElementsByTagName('video')[0]) {
