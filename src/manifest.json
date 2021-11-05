@@ -1,7 +1,7 @@
 {
   "name": "Youtube Large Livestream",
   "description": "Fill available space when viewing a Youtube livestream",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "manifest_version": 3,
   "content_scripts": [
     {
