@@ -21,7 +21,6 @@
       setVideoSize(player);
     }).observe(video, {
       attributes: true,
-      attributeFilter: ['style'],
     });
 
     document.addEventListener('visibilitychange', () => {
